@@ -1,1 +1,1 @@
-# node-github-dockerized
+# node-jenkins-dockerized

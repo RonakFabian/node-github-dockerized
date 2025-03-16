@@ -1,0 +1,17 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Testing Stage'",
+    "build": "echo 'Building Stage'",
+    "sonar": "sonar-scanner"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+     "sonar-scanner": "3.1.0"
+  }
+}
