@@ -17,10 +17,5 @@ jobs:
         uses: actions/setup-node@v4.2.0
       - name: npm install
         run: npm install
-
-  Build-docker-and-run:
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Build docker
         run: docker build -t mynodeg:latest .
