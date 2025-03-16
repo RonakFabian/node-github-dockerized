@@ -18,9 +18,9 @@ jobs:
       - name: npm install
         run: npm install
 
-  Run-Node-App:
+  Build-docker-and-run:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run app
-        run: ls
+      - name: Build docker
+        run: docker build -t mynodeg:latest .
